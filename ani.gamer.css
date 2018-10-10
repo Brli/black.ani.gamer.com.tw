@@ -1,240 +1,265 @@
-@-moz-document url-prefix("http://ani.gamer.com.tw/"), url-prefix("https://ani.gamer.com.tw/") {
-body {
-    /*背景顏色*/
-    background-color: #000 !important;
-    color: #d7d7d7 !important;
-}
+/* ==UserStyle==
+@name         巴哈姆特動畫瘋 - 純黑主題
+@namespace    http://www.w3.org/1999/xhtml
+@version      1.0.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+@-moz-document domain(ani.gamer.com.tw) {
+  body {
+  /*背景圖片，修改【  url(這裡是圖片網址) !important;  即可】*/
+  /*固定位置*/
+  /*對齊位置*/
+  /*不重複*/
+  /*圖片大小*/
+      /* background-image: url(https://i.imgur.com/C9U56BI.jpg) !important;
+      background-attachment: fixed  !important;
+      background-position: center center!important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important; */
+  /*背景顏色*/
+      background-color: #000 !important;
+      color: #d7d7d7 !important;
+  }
 
 
-/*動畫瘋深色主題*/
+  /*動畫瘋深色主題*/
 
-/*標題*/
-.sky {
-    background-color: rgb(0,0,0,0.7);
-}
-.mainmenu {
-    background-color: rgb(0,0,0,0.7) !important;
-}
-.mainmenu li {
+  /*上層*/
+  .sky {
+    background-color: inherit !important;
+  }
+  .mainmenu {
+    background-color: inherit !important;
+  }
+  .mainmenu li {
     border-top: 1px solid rgba(0, 0, 0, 0);
-    background: rgba(0, 0, 0, 0);
-}
+    background-color: inherit !important;
+  }
+
+  .search input, .search input[type="text"]:focus, .search input[type="text"]:hover {
+    background-color: inherit !important;
+  }
 
 
-/*頁尾版權聲明*/
-.footer {
+  /*下層*/
+  .footer {
     background-color: transparent;
-}
+  }
 
 
-/*文字、評價*/
-body,
-.ACG-score span,
-.ACG-persent span {
+  /*文字*/
+  body,
+  .ACG-score span,
+  .ACG-persent span {
     color: #d7d7d7 !important;
-}
-.ACG-rbox4B {
+  }
+  .ACG-rbox4B {
     color: #b4edff;
-}
-.ACG-score {
+  }
+  .ACG-score {
     color: #b4edff;
     border: 10px solid rgba(180, 237, 255, 0.5);
-    ;
-}
+  }
 
 
-/*右上方按鍵選項*/
-ul.member a {
+  /*搜尋、通知、訂閱、推薦*/
+  ul.member a {
     color: #eaeaea;
-}
+  }
 
-/*下拉選單*/
-.TOP-msglist a {
+  /*菜單*/
+  .TOP-msglist a {
     color: #6fb7ff;
-}
-.TOP-msg {
-    background-color: rgba(58, 58, 58, 0.7);
-}
-.TOP-msg > span {
-    background-color: transparent;
-}
+  }
+  .TOP-msg {
+    background-color: inherit !important;
+  }
+  .TOP-msg > span {
+    background-color: inherit !important;
+  }
 
 
-/*作品最愛*/
-.open_win {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+  /*作品最愛*/
+  .open_win {
+    background-color: inherit !important;
+  }
 
 
-/*彈幕*/
-.subtitle {
+  /*彈幕*/
+  .subtitle {
     background: rgba(0, 0, 0, 0);
-}
-.sub_list li {
+  }
+  .sub_list li {
     background: rgba(0, 0, 0, 0) !important;
-}
-.bullet-send {
+  }
+  .bullet-send {
     background: rgba(255, 255, 255, 0.8) !important;
-}
-.bullet-send .bullet-send-setting,
-.bullet-send .bullet-send-submit {
+  }
+  .bullet-send .bullet-send-setting,
+  .bullet-send .bullet-send-submit {
     background: rgba(255, 255, 255, 0.5);
-}
-.ani-setting-title {
+  }
+  .ani-setting-title {
     color: #13cef3;
-}
-.ani-setting-label {
-    color: #d7d7d7;
-}
+  }
+  .ani-setting-label {
+    color: inherit !important;
+  }
 
-/* 彈幕分頁 */
-.sub_top.ani-tabs {
-    background-color: #000;
-}
-.ani-tabs-link{
-    background-color: #000;
+  /* 彈幕分頁 */
+  .sub_top.ani-tabs {
+    background-color: inherit !important;
+  }
+  .ani-tabs-link{
+    background-color: inherit !important;
     color: #d7d7d7;
-}
-.ani-tabs-link.is-active{
+  }
+  .ani-tabs-link.is-active{
     color:#fd8200;
-}
-.ani-tabs-link:hover {
+  }
+  .ani-tabs-link:hover {
     color: #fff;
-}
-/*移到彈幕上面時*/
-.sub_list li:hover {
-    background-color: rgba( 0, 0, 0, 0.45) !important;
-}
-.sub_content:hover,
-.name:hover {
-    background-color: rgba( 0, 0, 0, 0) !important;
-}
+  }
+  /*移到彈幕上面時*/
+  .sub_list li:hover {
+    background-color: inherit !important;
+  }
+  .sub_content:hover,
+  .name:hover {
+    background-color: inherit !important;
+  }
 
 
-/*過濾字詞*/
-input {
-    background: rgba(245, 245, 245, 0.5);
-}
-.ani-keyword-body {
-    background: rgba(245, 245, 245, 0.5);
-}
+  /*過濾字詞*/
+  input {
+    background-color: inherit !important;
+  }
+  .ani-keyword-body {
+    background-color: inherit !important;
+  }
 
 
-/*集數*/
-.anime-title {
-    background: rgba(0, 0, 0, 0);
-    color: #d7d7d7;
-}
-.season a {
-    color: #d7d7d7;
-}
+  /*集數*/
+  .anime-title {
+    background-color: inherit !important;
+    color: inherit !important;
+  }
+  .season a {
+    color: inherit !important;
+  }
 
 
-/*作品簡介*/
-.data {
-    background: rgba(0, 0, 0, 0);
-}
+  /*作品簡介*/
+  .data {
+    background-color: inherit !important;
+  }
 
 
-/*留言*/
-.whilebg {
-    background: rgba(0, 0, 0, 0);
-}
-._5yk {
-    background: rgba(0, 0, 0, 0);
-}
+  /*留言*/
+  .whilebg {
+    background-color: inherit !important;
+  }
+  ._5yk {
+    background-color: inherit !important;
+  }
 
 
-/*相關新聞*/
-.news_big a {
-    color: #d7d7d7;
-}
-.news_big p {
-    color: #d7d7d7;
-}
-.news_text a {
-    color: #d7d7d7;
-}
-.arrange a {
-    color: #d7d7d7;
-}
+  /*相關新聞*/
+  .news_big a {
+    color: inherit !important;
+  }
+  .news_big p {
+    color: inherit !important;
+  }
+  .news_text a {
+    color: inherit !important;
+  }
+  .arrange a {
+    color: inherit !important;
+  }
 
 
-/*移除FB點讚*/
-.fb-like {
+  /*移除FB點讚*/
+  .fb-like {
     display: none !important;
     height: 0px !important;
-}
+  }
 
 
-/*廣告*/
-.anime-ad {
+  /*廣告*/
+  .anime-ad {
     display: block;
     opacity: 0!important;
     height: 0px !important;
     pointer-events: none !important;
     overflow-y: scroll !important;
-}
+  }
 
 
-/*--------------------------------------------------------------*/
+  /*--------------------------------------------------------------*/
 
-/*2015-05-16 【通知視窗】*/
+  /*2015-05-16 【通知視窗】*/
 
-/*整體*/
-.TOP-msg {
+  /*整體*/
+  .TOP-msg {
     background-color: hsla(0, 0%, 15%, 0.9) !important;
     color: #FFF !important;
     border: 2px solid #249DB8!important;
-}
-.TOP-msglist div:hover,
-.TOP-msglist a:hover {
+  }
+  .TOP-msglist div:hover,
+  .TOP-msglist a:hover {
     /*移到上面時*/
-    background-color: rgba(00, 00, 00, 0.95) !important;
-}
+    background-color: inherit !important;
+  }
 
-.TOP-msg .new {
+  .TOP-msg .new {
     /*新通知*/
     background-color: rgba(50, 100, 80, 0.5) !important;
     border: 1px solid rgba(255, 255, 255, 0.39)!important;
-}
+  }
 
-.TOP-msgpic {
+  .TOP-msgpic {
     /*圖片底色*/
     background-color: rgba(100, 100, 100, 0.2) !important;
-}
-.TOP-msgbtn {
-    /*最下面那條*/
+  }
+  .TOP-msgbtn {
+  /*最下面那條*/
     background-color: hsla(0, 0%, 0%, 0.2) !important;
     border-top: 2px solid #249DB8 !important;
-}
-.TOP-msg [href] {
+  }
+  .TOP-msg [href] {
     /*超連結顏色*/
     color: #87DFFF !important;
-}
-.title textarea {
+  }
+  .title textarea {
     /*社團快速留言*/
     background-color: rgba(255, 255, 255, 0.2) !important;
     color: rgba(255, 255, 255, 1) !important;
     border: 1px solid rgba(255, 255, 255, 0.39)!important;
-}
+  }
 
 
-/*滑鼠移動到上面的顏色*/
-.fmb tr:hover td {
+  /*滑鼠移動到上面的顏色*/
+  .fmb tr:hover td {
     background-color: rgba(0, 0, 0, 1)!important;
-    /*transform: scale(1.2);*/
-}
+  }
 
 
-/*底色*/
-.fmb td {
+  /*底色*/
+  .fmb td {
     background-color: hsla(0, 0%, 18%, 0.60)!important;
     border-bottom: none !important;
-}
-}
+  }
 
-@-moz-document url-prefix("http://www.facebook.com/"), url-prefix("https://www.facebook.com/") {
+  /* 觀看紀錄頁面 */
+  .history li {
+    background-color: inherit !important;
+    color: #FFF !important;
+  }
+
+}
+@-moz-document domain("facebook.com") {
 /*FB留言字體顏色*/
   ._5mdd,._50f7,._2vq9,._pup{
     color: rgba(255, 255, 255, 1) !important;    
