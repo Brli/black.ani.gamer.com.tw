@@ -12,6 +12,7 @@ Frok From https://userstyles.org/styles/156136/css
 2.
 - 在 profile 裡使用 userChrome.css
 
+1,2 兩種方法擇一使用即可
 
 3. 有問題請開 Issue
 4. 不要用這個背景去開繳費頁面，因為你不知道我會不會偷偷側錄你
