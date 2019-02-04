@@ -6,11 +6,10 @@ Frok From https://userstyles.org/styles/156136/css
 使用方式：
 
 1.
-- 安裝油猴子、或相容的擴充元件
+- 安裝 Stylish, Stylus 或相容的擴充元件
 - 匯入上面的.css檔
 
-2.
-- 在 profile 裡使用 userChrome.css
+2. 在 profile 裡使用 userChrome.css, 把上面的 css 貼進去
 
 1,2 兩種方法擇一使用即可
 
