@@ -59,7 +59,7 @@
     ul.member a {
         color: #eaeaea;
     }
-    /*菜單*/
+    /*選單*/
     .TOP-msglist a {
         color: #6fb7ff;
     }
@@ -118,6 +118,7 @@
     /*過濾字詞*/
     input {
         background-color: inherit !important;
+        color: rgb(215, 215, 215) !important;
     }
     .ani-keyword-body {
         background-color: inherit !important;
