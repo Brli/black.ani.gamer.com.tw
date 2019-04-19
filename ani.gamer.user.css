@@ -219,4 +219,13 @@
         background-color: inherit !important;
         color: #FFF !important;
     }
+    .anime-card, .more-btn, .watch-list-card {
+        background-color: inherit !important;
+        color: #FFF !important;
+    }
+    /* 付費頁面 */
+    .cart_header, .pay_confirm{
+        background-color: inherit !important;
+        color: #FFF !important;
+    }
 }
