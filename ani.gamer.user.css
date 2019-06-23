@@ -18,7 +18,7 @@
          *      background-repeat: no-repeat !important;
          *      background-size: cover !important; */
         /*背景顏色*/
-        background-color: #000 !important;
+        background-color: #2a2a2a !important;
         color: #d7d7d7 !important;
     }
     /*動畫瘋深色主題*/
@@ -55,6 +55,24 @@
         color: #b4edff;
         border: 10px solid rgba(180, 237, 255, 0.5);
     }
+    .title {
+        color: #d7d7d7 !important;
+    }
+    .week_item_click span{
+        color: inherit !important;
+    }
+    .week_item_click:hover{
+        color:#00B4D8 !important;
+    }
+    .info {
+        background-color: transparent !important;
+    }
+    .anime_btn_more i, .animelook i{
+        background-color: transparent !important;
+    }
+    .anime_btn_more i:hover, .animelook i:hover{
+        background-color: #00B4D8 !important;
+    }
     /*搜尋、通知、訂閱、推薦*/
     ul.member a {
         color: #eaeaea;
@@ -75,17 +93,19 @@
     }
     /*彈幕*/
     .subtitle {
-        background: rgba(0, 0, 0, 0);
+        background: transparent;
     }
     .sub_list li {
-        background: rgba(0, 0, 0, 0) !important;
+        background: transparent !important;
     }
     .bullet-send {
-        background: rgba(255, 255, 255, 0.8) !important;
+        background: transparent !important;
     }
-    .bullet-send .bullet-send-setting,
-    .bullet-send .bullet-send-submit {
-        background: rgba(255, 255, 255, 0.5);
+    .bullet-send-setting, .bullet-send-submit {
+        background: inherit !important;
+    }
+    .bullet-send-setting:hover, .bullet-send-submit:hover {
+        background: #00b4d8 !important;
     }
     .ani-setting-title {
         color: #13cef3;
@@ -227,5 +247,9 @@
     .cart_header, .pay_confirm{
         background-color: inherit !important;
         color: #FFF !important;
+    }
+    .cart .program{
+        background: inherit !important;
+        color: #8f8f8f;
     }
 }
