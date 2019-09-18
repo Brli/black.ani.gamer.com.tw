@@ -26,7 +26,7 @@
     .sky {
         background-color: inherit !important;
     }
-    .sky ul a:hover{
+    .sky ul a:hover {
         color: #747474 !important;
     }
     .mainmenu {
@@ -61,19 +61,21 @@
     .title {
         color: #d7d7d7 !important;
     }
-    .week_item_click span{
+    .week_item_click span {
         color: inherit !important;
     }
-    .week_item_click:hover{
-        color:#00B4D8 !important;
+    .week_item_click:hover {
+        color: #00B4D8 !important;
     }
     .info {
         background-color: transparent !important;
     }
-    .anime_btn_more i, .animelook i{
+    .anime_btn_more i,
+    .animelook i {
         background-color: transparent !important;
     }
-    .anime_btn_more i:hover, .animelook i:hover{
+    .anime_btn_more i:hover,
+    .animelook i:hover {
         background-color: #00B4D8 !important;
     }
     /*搜尋、通知、訂閱、推薦*/
@@ -89,16 +91,25 @@
     .TOP-msglist {
         background-color: #2a2a2a !important;
     }
-    .TOP-msglist span{
+    .TOP-msglist span {
         color: #d7d7d7 !important;
     }
     .TOP-msglist div:hover {
         /*移到上面時*/
         background-color: #747474 !important;
     }
-    .TOP-msg .new {
+    .TOP-msglist .new {
         /*新通知*/
         border: 1px solid rgba(255, 255, 255, 0.39)!important;
+    }
+    .TOP-msglist .new .link {
+        color: #00555f !important;
+    }
+    .TOP-msglist .new .time {
+        color: #2a2a2a !important;
+    }
+    .TOP-msglist .new:hover span {
+        color: #d7d7d7 !important;
     }
     .TOP-msgpic {
         /*圖片底色*/
@@ -113,7 +124,7 @@
         /*超連結顏色*/
         color: #87DFFF !important;
     }
-
+    
     /*作品最愛*/
     .open_win {
         background-color: inherit !important;
@@ -128,10 +139,12 @@
     .bullet-send {
         background: transparent !important;
     }
-    .bullet-send-setting, .bullet-send-submit {
+    .bullet-send-setting,
+    .bullet-send-submit {
         background: inherit !important;
     }
-    .bullet-send-setting:hover, .bullet-send-submit:hover {
+    .bullet-send-setting:hover,
+    .bullet-send-submit:hover {
         background: #00b4d8 !important;
     }
     .ani-setting-title {
@@ -232,20 +245,24 @@
         border-bottom: none !important;
     }
     /* 觀看紀錄頁面 */
-    .history li, .history a {
+    .history li,
+    .history a {
         background-color: inherit !important;
         color: #FFF !important;
     }
-    .anime-card, .more-btn, .watch-list-card {
+    .anime-card,
+    .more-btn,
+    .watch-list-card {
         background-color: inherit !important;
         color: #FFF !important;
     }
     /* 付費頁面 */
-    .cart_header, .pay_confirm{
+    .cart_header,
+    .pay_confirm {
         background-color: inherit !important;
         color: #FFF !important;
     }
-    .cart .program{
+    .cart .program {
         background: inherit !important;
         color: #8f8f8f;
     }
