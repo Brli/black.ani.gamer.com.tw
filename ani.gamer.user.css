@@ -77,16 +77,40 @@
     ul.member a {
         color: #eaeaea;
     }
-    /*選單*/
-    .TOP-msglist a {
-        color: #6fb7ff;
-    }
     .TOP-msg {
-        background-color: inherit !important;
+        border: 1px solid #249DB8!important;
     }
     .TOP-msg > span {
         background-color: inherit !important;
     }
+    .TOP-msglist {
+        background-color: #2a2a2a !important;
+    }
+    .TOP-msglist span{
+        color: #d7d7d7 !important;
+    }
+    .TOP-msglist div:hover {
+        /*移到上面時*/
+        background-color: #747474 !important;
+    }
+    .TOP-msg .new {
+        /*新通知*/
+        border: 1px solid rgba(255, 255, 255, 0.39)!important;
+    }
+    .TOP-msgpic {
+        /*圖片底色*/
+        background-color: transparent !important;
+    }
+    .TOP-msgbtn {
+        /*最下面那條*/
+        background-color: #2a2a2a !important;
+        border-top: 1px solid #249DB8 !important;
+    }
+    .TOP-msg [href] {
+        /*超連結顏色*/
+        color: #87DFFF !important;
+    }
+
     /*作品最愛*/
     .open_win {
         background-color: inherit !important;
@@ -189,36 +213,6 @@
         overflow-y: scroll !important;
     }
     /*--------------------------------------------------------------*/
-    /*2015-05-16 【通知視窗】*/
-    /*整體*/
-    .TOP-msg {
-        background-color: black !important;
-        color: #FFF !important;
-        border: 2px solid #249DB8!important;
-    }
-    .TOP-msglist div:hover,
-    .TOP-msglist a:hover {
-        /*移到上面時*/
-        background-color: inherit !important;
-    }
-    .TOP-msg .new {
-        /*新通知*/
-        background-color: rgba(50, 100, 80, 0.5) !important;
-        border: 1px solid rgba(255, 255, 255, 0.39)!important;
-    }
-    .TOP-msgpic {
-        /*圖片底色*/
-        background-color: rgba(100, 100, 100, 0.2) !important;
-    }
-    .TOP-msgbtn {
-        /*最下面那條*/
-        background-color: hsla(0, 0%, 0%, 0.2) !important;
-        border-top: 2px solid #249DB8 !important;
-    }
-    .TOP-msg [href] {
-        /*超連結顏色*/
-        color: #87DFFF !important;
-    }
     .title textarea {
         /*社團快速留言*/
         background-color: rgba(255, 255, 255, 0.2) !important;
