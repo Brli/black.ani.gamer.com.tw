@@ -26,6 +26,9 @@
     .sky {
         background-color: inherit !important;
     }
+    .sky ul a:hover{
+        color: #747474 !important;
+    }
     .mainmenu {
         background-color: inherit !important;
     }
