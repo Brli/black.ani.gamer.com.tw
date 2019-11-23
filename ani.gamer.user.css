@@ -89,7 +89,7 @@
         border: 1px solid #249DB8!important;
     }
     .TOP-msg > span {
-        background-color: inherit !important;
+        background-color: #2a2a2a !important;
     }
     .TOP-msglist {
         background-color: #2a2a2a !important;
@@ -212,9 +212,15 @@
     .news_big p {
         color: inherit !important;
     }
+
+    .news_big .pic {
+        background-color: #2a2a2a !important;
+    }
+
     .news_text a {
         color: inherit !important;
     }
+
     .arrange a {
         color: inherit !important;
     }
