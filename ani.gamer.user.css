@@ -267,12 +267,19 @@
     }
     /* 付費頁面 */
     .cart_header,
-    .pay_confirm {
+    .pay_confirm,
+    .usercard, .paycard {
         background-color: inherit !important;
         color: #FFF !important;
     }
     .cart .program {
         background: inherit !important;
         color: #8f8f8f;
+    }
+
+    /* 年齡驗證頁面 */
+    .age-cer-area,
+    .cer-info-img {
+        background-color: inherit !important;
     }
 }
